@@ -31,7 +31,7 @@ class ItemBasedCF(object):
 
         print('Similar movie number = %d' % self.n_sim_movie, file=sys.stderr)
         print('Recommended movie number = %d' %
-              self.n_rec_movie, file=sys.stderr)
+              self.n_rec_movie, file=sys.stderr)      #做出改变
 
     @staticmethod
     def loadfile(filename):
